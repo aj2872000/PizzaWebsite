@@ -11,7 +11,7 @@ const flash = require('express-flash')
 const MongoDbStore = require('connect-mongo')(session)
 const passport = require('passport')
 const Emitter = require('events')
-const MONGO_CONNECTION_URL="mongodb://0.0.0.0:27017/";
+const MONGO_CONNECTION_URL="mongodb://0.0.0.0:27017/pizza";
 // Database connection
 mongoose.connect(MONGO_CONNECTION_URL, { useNewUrlParser: true, useCreateIndex:true, useUnifiedTopology: true, useFindAndModify : true });
 const connection = mongoose.connection;
