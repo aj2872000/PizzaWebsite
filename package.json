@@ -41,13 +41,5 @@
     "sass": "^1.26.9",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codersgyan/realtime-pizza-app-node-express-mongo.git"
-  },
-  "bugs": {
-    "url": "https://github.com/codersgyan/realtime-pizza-app-node-express-mongo/issues"
-  },
-  "homepage": "https://github.com/codersgyan/realtime-pizza-app-node-express-mongo#readme"
+  }
 }
